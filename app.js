@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
   res.render('index', { title: 'Qui prend quoi ?' });
 });
 
-app.get('/party', function(req, res) {
+app.post('/party', function(req, res) {
   res.send('Post ok !')
 });
 
